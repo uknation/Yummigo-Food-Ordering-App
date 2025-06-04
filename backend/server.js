@@ -6,6 +6,7 @@ import foodRouter from "./routes/foodRoute.js";
 import cartRouter from "./routes/cartRoute.js";
 import orderRouter from "./routes/orderRoute.js";
 import 'dotenv/config'; // Load environment variables
+import { connectDB } from './config/db.js'; 
 
 const app = express();
 const port = process.env.PORT || 4000;
