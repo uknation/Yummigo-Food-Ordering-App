@@ -1,6 +1,11 @@
 import mongoose from "mongoose";
 
-export const  connectDB = async () =>{
-    await mongoose.connect('mongosh "mongodb+srv://yummigocluster.haota4s.mongodb.net/" --apiVersion 1 --username yukesh').then(()=>console.log("DB Connected"))
-}
-
+export const connectDB = async () => {
+  try {
+    await mongoose.connect(process.env.MONGO_URI);
+    console.log("✅ MongoDB connected");
+  } catch (error) {
+    console.error("❌ MongoDB connection failed:", error.message);
+    process.exit(1);
+  }
+};
