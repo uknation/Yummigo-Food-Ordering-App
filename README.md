@@ -30,15 +30,15 @@ Admins can manage food items, restaurants, and order status (if admin panel is i
 
 ---
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 Frontend
-React.js: Interactive UI components.
-CSS: Styling for a visually appealing user experience.
+React.js
+CSS
 
 Backend
-Node.js: Backend server.
-Express.js: Web framework for routing and API creation.
-MongoDB: Database for storing user data, food items, and orders.
+Node.js
+Express.js
+MongoDB
 
 Payment Integration
-Stripe: Payment gateway for secure transactions(Test Mode).
+Stripe
