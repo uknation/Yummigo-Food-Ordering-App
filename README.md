@@ -14,7 +14,7 @@ This full-stack food delivery platform allows users to:
 - Proceed to checkout and place orders  
 - View order history (planned feature)
 
-Admins can manage food items, restaurants, and order status (if admin panel is implemented).
+Admins can manage food items, restaurants, and order status
 
 ---
 
